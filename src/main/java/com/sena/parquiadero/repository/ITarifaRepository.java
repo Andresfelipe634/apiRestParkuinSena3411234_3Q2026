@@ -9,4 +9,5 @@ import com.sena.parquiadero.model.TipoVehiculo;
 
 public interface ITarifaRepository extends JpaRepository<Tarifa, Long> {
 	Optional<Tarifa> findByTipoVehiculo(TipoVehiculo tipoVehiculo);
+
 }
